@@ -1,0 +1,46 @@
+{
+  "name": "cgf",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "test:unit": "vue-cli-service test:unit",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "bootstrap": ">=4.5.3 <5.0.0",
+    "bootstrap-vue": "^2.21.2",
+    "calculate-correlation": "^1.2.2",
+    "core-js": "^3.19.2",
+    "d3": "^7.1.1",
+    "jspanel4": "^4.13.0",
+    "popper.js": "1.16.1",
+    "three": "0.126.0",
+    "umap-js": "^1.3.3",
+    "vue": "^2.6.14",
+    "vue-gl": "<1.0.0",
+    "vue-js-panel": "^0.0.1",
+    "vuex": "^3.6.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~5.0.0-beta.6",
+    "@vue/cli-plugin-eslint": "~5.0.0-beta.6",
+    "@vue/cli-plugin-unit-mocha": "~5.0.0-beta.6",
+    "@vue/cli-plugin-vuex": "~5.0.0-beta.6",
+    "@vue/cli-service": "~5.0.0-beta.6",
+    "@vue/test-utils": "^1.3.0",
+    "babel-eslint": "^10.1.0",
+    "chai": "^4.3.4",
+    "eslint": "latest",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-vue": "^8.1.1",
+    "jquery": "1.9.1 - 3",
+    "mocha": ">=2.2.5",
+    "mocha-junit-reporter": "^2.0.2",
+    "prettier": "^2.5.0",
+    "sass": "^1.44.0",
+    "sass-loader": "^12.3.0",
+    "vue-template-compiler": "^2.6.14"
+  }
+}
